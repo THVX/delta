@@ -52,6 +52,26 @@ namespace Alpha {
 		cout << input;
 	}
 
+  void SPrintln(string input) {
+		cout << input << endl;
+	}
+	void IPrintln(int input) {
+		cout << input << endl;
+  }
+	void CPrintln(char input) {
+		cout << input << endl;
+	}
+	void FPrintln(float input) {
+		cout << input << endl;
+	}
+	void BPrintln(bool input) {
+		cout << input << endl;
+	}
+	void CSPrintln(const char* input) {
+		cout << input << endl;
+	}
+
+
 	// ------------------------------------------------------------------------------------------------------------------------------------
 		// Input
 	void SInput(string input) {
