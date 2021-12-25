@@ -52,7 +52,7 @@ namespace Alpha {
 		cout << input;
 	}
 
-  void SPrintln(string input) {
+  	void SPrintln(string input) {
 		cout << input << endl;
 	}
 	void IPrintln(int input) {
