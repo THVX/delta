@@ -1,4 +1,4 @@
-#include "Alpha.hpp"
+#include "Axe.h"
 using namespace Alpha;
 
 IntFunc main() {
