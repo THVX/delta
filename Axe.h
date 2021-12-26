@@ -7,7 +7,7 @@ constexpr auto Null = 0;
 
 using namespace std;
 
-namespace Alpha {
+namespace Axe {
 	// ------------------------------------------------------------------------------------------------------------------------------------
 		// Types
 	typedef string String;
