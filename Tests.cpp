@@ -1,5 +1,5 @@
 #include "Axe.h"
-using namespace Alpha;
+using namespace Axe;
 
 IntFunc main() {
   String message = "Hello World !";
