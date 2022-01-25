@@ -8,7 +8,7 @@ constexpr auto Null = 0;
 
 using namespace std;
 
-class AlphaLang {
+namespace AlphaLang {
 
 	typedef string String;
 	typedef int Integer;
