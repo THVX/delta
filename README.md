@@ -1,4 +1,6 @@
 ### Alpha
+
+![Alpha SDK's logo](https://github.com/chatter-droid/Alpha/blob/main/alphasdklogo.png "Alpha SDK's logo")
 ### Boom your apps with Alpha !
 
 Alpha is a C/C++ library for creating console apps without difficulty.
