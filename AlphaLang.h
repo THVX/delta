@@ -9,14 +9,22 @@ constexpr auto Null = 0;
 using namespace std;
 
 namespace AlphaLang {
-
+	
+	// Aliases	
 	typedef string String;
-	typedef int Integer;
-	typedef char Character;
+	typedef int Int;
+	typedef char Char;
 	typedef float Float;
 	typedef bool Boolean;
 	typedef const char* CString;
-	typedef void Variable;
+	
+	//TYPE COMPLETION [MIGHT BE BUGGY AND UNTESTED]
+	typedef string Var;
+	typedef int Var;
+	typedef char Var;
+	typedef float Var;
+	typedef bool Var;
+	typedef const char* Var;
 
 	typedef void Func;
 	typedef string StrFunc;
@@ -128,15 +136,9 @@ namespace AlphaLang {
 		}
 	}
 
-	void printError(string input) {
-		cout << "[ERROR] " << input << endl;
-	}
-
-	void printLog(const input) {
-		cout << "[LOG] " << input << endl;
-	}
+	
 
 	// Colors
-	
+	// TODO: complete that
 
 }
