@@ -1,6 +1,6 @@
 ### Delta
 
-![Alpha SDK's logo](https://github.com/chatter-droid/Alpha/blob/main/alphasdklogo.png "Alpha SDK's logo")
+![Delta's logo](https://github.com/chatter-droid/Alpha/blob/main/Screenshot%202022-02-26%20at%2012-15-04%20Logo%20Maker%20Used%20By%202.3%20Million%20Startups.png "Delta's logo")
 ### Write smarter code with Delta.
 
 Alpha is a C/C++ library for creating apps without struggling, inspirated from [ChaiScript](https://chaiscript.com/).
