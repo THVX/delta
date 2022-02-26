@@ -1,5 +1,4 @@
 #pragma once
-#pragma message("[LOG] Using Alpha\n")
 #include <iostream>
 #include <string>
 #include <stdio.h>
