@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include <string>
 #include <stdio.h>
 
 constexpr auto nothing = 0;
@@ -11,123 +10,80 @@ namespace Delta {
 	
 	// Aliases	
 	typedef string str;
-	typedef int num;
-	typedef float fl;
+	typedef num num;
+	typedef fl fl;
 	
-	//TYPE COMPLETION [MIGHT BE BUGGY AND UNTESTED]
-	typedef string var;
-	typedef int var;
+	//TYPE COMPLETION [MIGHT BE BUGGY AND IS UNTESTED]
+	typedef str var;
+	typedef num var;
 	typedef char var;
-	typedef float var;
+	typedef fl var;
 	typedef bool var;
+	typedef volatile var;
+	typedef auto var;
 
 	typedef void fn;
+	typedef string fn;
+	typedef num fn;
+	typedef char fn;
+	typedef fl fn;
+	typedef bool fn;
 
-	bool True = true;
-	bool False = false;
+	const bool yes = true;
+	const bool no = false;
 
-	class Console {
-		void echo(string input) {
-			cout << input;
-		}
-		void print(int input) {
-			cout << input;
-		}
-		void print(char input) {
-			cout << input;
-		}
-		void print(float input) {
-			cout << input;
-		}
-		void print(bool input) {
-			cout << input;
-		}
-		void print(const char* input) {
-			cout << input;
-		}
-
-  		void println(string input) {
-			cout << input << endl;
-		}
-		void println(int input) {
-			cout << input << endl;
-  		}
-		void println(char input) {
-			cout << input << endl;
-		}
-		void println(float input) {
-			cout << input << endl;
-		}
-		void println(bool input) {
-			cout << input << endl;
-		}
-		void println(const char* input) {
-			cout << input << endl;
-		}
-
-		void input(string input) {
-			cin >> input;
-		}
-		void input(int input) {
-			cin >> input;
-		}
-		void input(char input) {
-			cin >> input;
-		}
-		void input(float input) {
-			cin >> input;
-		}
-		void input(bool input) {
-			cin >> input;
-		}
-		void input(char* input) {
-			cin >> input;
-		}
-		void inputln(string input) {
-			cin >> input >> endl;
-		}
-		void inputln(int input) {
-			cin >> input >> endl;
-		}
-		void inputln(char input) {
-			cin >> input >> endl;
-		}
-		void inputln(float input) {
-			cin >> input >> endl;
-		}
-		void inputln(bool input) {
-			cin >> input >> endl;
-		}
-		void inputln(char* input) {
-			cin >> input >> endl;
-		}
-
-		void printError(string input) {
-			cout << "[ERROR] " << input << endl;
-		}
-
-		void printError(string input) {
-			cout << "[ERROR] " << input << endl;
-		}
-
-		void printError(string input) {
-			cout << "[ERROR] " << input << endl;
-		}
-
-		void printLog(const input) {
-			cout << "[LOG] " << input << endl;
-		}
+	fn emit(var value) {
+		return value;
 	}
 
-	class RocketUI {
-		void Start() {
-			// TODO complete that			
-		}
+  	fn echo(str input) {
+		cout << input << endl;
+	}
+	fn echo(num input) {
+		cout << input << endl;
+  	}
+	fn echo(char input) {
+		cout << input << endl;
+	}
+	fn echo(fl input) {
+		cout << input << endl;
+	}
+	fn echo(bool input) {
+		cout << input << endl;
+	}
+	fn echo(const char* input) {
+		cout << input << endl;
 	}
 
-	
+	fn read(str input) {
+		cin >> input >> endl;
+	}
+	fn read(num input) {
+		cin >> input >> endl;
+	}
+	fn read(char input) {
+		cin >> input >> endl;
+	}
+	fn read(fl input) {
+		cin >> input >> endl;
+	}
+	fn read(bool input) {
+		cin >> input >> endl;
+	}
+	fn read(char* input) {
+		cin >> input >> endl;
+	}
 
-	// Colors
-	// TODO: complete that
+	fn err(str input) {
+		cout << "[ERROR] " << input << endl;
+	}
 
+	fn err(str input) {
+		cout << "[ERROR] " << input << endl;
+	}
+
+	fn log(const input) {
+		cout << "[LOG] " << input << endl;
+	}
 }
+

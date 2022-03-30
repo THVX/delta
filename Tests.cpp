@@ -1,5 +1,4 @@
-#include "Alpha.h"
+#include "Delta.h"
+using namespace Delta;
 
-Func main() {
-  AlphaLang.Console.println("Hello")
-}
+fn main()
