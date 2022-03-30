@@ -3,41 +3,31 @@
 #include <string>
 #include <stdio.h>
 
-constexpr auto Null = 0;
+constexpr auto nothing = 0;
 
 using namespace std;
 
-namespace AlphaLang {
+namespace Delta {
 	
 	// Aliases	
-	typedef string String;
-	typedef int Int;
-	typedef char Char;
-	typedef float Float;
-	typedef bool Boolean;
-	typedef const char* CString;
+	typedef string str;
+	typedef int num;
+	typedef float fl;
 	
 	//TYPE COMPLETION [MIGHT BE BUGGY AND UNTESTED]
-	typedef string Var;
-	typedef int Var;
-	typedef char Var;
-	typedef float Var;
-	typedef bool Var;
-	typedef const char* Var;
+	typedef string var;
+	typedef int var;
+	typedef char var;
+	typedef float var;
+	typedef bool var;
 
-	typedef void Func;
-	typedef string StrFunc;
-	typedef int IntFunc;
-	typedef char CharFunc;
-	typedef float FloatFunc;
-	typedef bool BoolFunc;
-	typedef const char* CStrFunc;
+	typedef void fn;
 
 	bool True = true;
 	bool False = false;
 
 	class Console {
-		void print(string input) {
+		void echo(string input) {
 			cout << input;
 		}
 		void print(int input) {
