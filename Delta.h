@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <stdio.h>
+#undef void
 
 constexpr auto nothing = 0;
 
@@ -10,14 +11,14 @@ namespace Delta {
 	
 	// Aliases	
 	typedef string str;
-	typedef num num;
-	typedef fl fl;
+	typedef int num;
+	typedef float fl;
 	
 	//TYPE COMPLETION [MIGHT BE BUGGY AND IS UNTESTED]
 	typedef str var;
 	typedef num var;
 	typedef char var;
-	typedef fl var;
+	typedef float var;
 	typedef bool var;
 	typedef volatile var;
 	typedef auto var;
